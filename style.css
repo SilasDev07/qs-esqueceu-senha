@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,500;1,300;1,400&display=swap');
 
+
 * {
   margin: 0;
   font-family: 'Rubik', sans-serif;
+
 }
+
+
+
+
+
+
 
 
 header {
@@ -15,7 +23,6 @@ header {
   align-items: center;
   justify-content: space-between;
 }
-
 
 .nav {
   position: fixed;
@@ -50,6 +57,12 @@ header {
   width: 270px;
   display: flex;
   justify-content: right;
+}
+
+.container-h1 h1 {
+  font-size: 20px;
+  color: #F8C64F;
+  font-family: 'Rubik', sans-serif;
 }
 
 .container2 {
@@ -110,116 +123,125 @@ header {
   background-color: rgb(214, 214, 214);
 }
 
+
+
+
+
 main {
-  height: 900px;
+  height: 700px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #232323;
 }
 
-
-.container-senha {
-  border: 1px solid white;
-  display: flex;
-  background-color: none;
-  border-radius: 10px;
-  height: 400px;
-  align-items: center;
-  width: 500px;
+.container-divs-t {
+  background-color: #232323;
+  width: 850px;
+  height: 550px;
   justify-content: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
+  align-items: center;
   flex-direction: column;
-}
-
-
-.container-input {
-  height: 100px;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  border: none;
-  gap: 1px;
-  flex-direction: column;
 }
 
-
-.container-inputs {
-  display: flex;
-  border: none;
-  outline: none;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-}
-
-
-.botao-confirmar {
-  width: 100px;
-  height: 30px;
-  border-radius: 10px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: none;
-  color: black;
-  background-color: white;
-}
-
-.botao-confirmar:hover {
-  background-color: rgb(185, 185, 185);
-}
-
-.senha-esqueceu {
-  align-items: center;
-  display: flex;
-  color: #cdcdcd;
-  font-size: 30px;
-  justify-content: center;
-}
-
-
-.email-confirme {
-  width: 400px;
-  height: 40px;
-  border: none;
-  outline: none;
-  padding: 0 10px;
-  border-radius: 05px
-}
-
-
-.container-texto {
-  color: black;
-  font-family: Arial, Helvetica, sans-serif;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-
-.texto-container {
-  font-size: 14px;
-  color: #cdcdcd;
-}
-
-
-.container-botao {
-  width: 400px;
-  display: flex;
-  justify-content: right;
-  align-items: center;
-}
-
-
-.container-h1 h1 {
-  font-size: 20px;
+.container-divs-t h1 {
   color: #F8C64F;
-  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
 }
 
+.container-duvidas {
+  display: flex;
+  gap: 30px;
+  background-color: #232323;
+  width: 800px;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+
+.duvidas {
+  background-color: #cdcdcd;
+  width: 300px;
+  overflow: hidden;
+  height: 370px;
+
+}
+
+.feito-agora {
+  background-color: #bebebe;
+  width: 250px;
+  display: flex;
+  font-size: 14px;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+.container-texto4 li {
+  font-size: 12px;
+}
+
+.container-texto4 {
+  font-size: 12px;
+  height: 200px;
+  padding: 0 10px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #cdcdcd;
+}
+
+.container-texto5 {
+  font-size: 14px;
+  height: 200px;
+  padding: 0 10px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #cdcdcd;
+}
+
+.container-texto5 li {
+  font-size: 12px;
+}
+
+.texto-duv2 {
+  background-color: #bebebe;
+  width: 250px;
+  height: 60px;
+  font-size: 14px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.texto-duv3 {
+  background-color: #bebebe;
+  width: 250px;
+  height: 60px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-texto6 {
+  font-size: 14px;
+  height: 190px;
+  padding: 0 10px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #cdcdcd;
+}
+
+.container-texto6 li {
+  font-size: 12px;
+}
 
 footer {
   background-color: #cdcdcd;
@@ -401,21 +423,114 @@ footer {
   align-items: center;
   background-color: transparent
 }
-.container-textocop{
-  width: 1200px;
-font-size: 07px;  
-color: gray;
+
+.container-textocop {
+  font-size: 07px;
+  padding: 10px;
+  background-color: #cdcdcd;
+  color: gray;
 }
-@media (max-width: 510px) {
-  .container-senha {
+
+.container-fotos2 {
+  display: none;
+}
+
+
+@media (max-width:610px) {
+  footer {
+    height: 400px;
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  html {
+    width: auto;
+  }
+
+  .container-login {
+    width: 90px;
+  }
+
+  .container-tela {
     border: none;
   }
 
-  .email-confirme {
-    width: 300px;
+  .container-esquerda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
   }
 
-  .container-botao {
+  .container-fotos2 {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+  }
+
+
+  main {
+    height: 564px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-h4 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .container-redes {
+    display: none;
+  }
+
+
+  .container-direita {
+    display: none;
+  }
+
+  .contaienr-pagamentos {
+    display: none;
+  }
+}
+
+@media (max-width:814px) {
+
+  main {
+    height: 1400px;
+  }
+
+  .container-duvidas {
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    height: 1400px;
+  }
+
+  .container-divs-t {
+    height: 300px;
+    width: 200px;
+    display: flex;
+  }
+  .feito-agora{
+    width: 300px;
+  }
+  .texto-duv3{
+    width: 300px;
+  }
+  .texto-duv2{
     width: 300px;
   }
 }
