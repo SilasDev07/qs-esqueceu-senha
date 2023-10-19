@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,500;1,300;1,400&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,500;1,300;1,400&display=swap');
 
 
 * {
@@ -135,112 +135,76 @@ main {
   background-color: #232323;
 }
 
-.container-divs-t {
-  background-color: #232323;
-  width: 850px;
-  height: 550px;
-  justify-content: center;
-  align-items: center;
+.container-tela {
+  width: 500px;
+  display: flex;
   flex-direction: column;
-  display: flex;
-}
-
-.container-divs-t h1 {
-  color: #F8C64F;
-  font-size: 20px;
-}
-
-.container-duvidas {
-  display: flex;
-  gap: 30px;
-  background-color: #232323;
-  width: 800px;
-  align-items: center;
-  justify-content: center;
-  height: 400px;
-}
-
-.duvidas {
-  background-color: #cdcdcd;
-  width: 300px;
-  overflow: hidden;
-  height: 370px;
-
-}
-
-.feito-agora {
-  background-color: #bebebe;
-  width: 250px;
-  display: flex;
-  font-size: 14px;
   justify-content: center;
   align-items: center;
+  height: 360px;
+  border: 2px solid white;
+  border-radius: 10%;
+}
+
+.contaienr-h1 h1 {
+  color: #eba503;
+
+}
+
+.container-tudos {
+  width: 330px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-textin {
+  font-size: 12px;
+  background-color: transparent;
+  width: 200px;
+  color: #cdcdcd;
+  height: 50px;
+  display: flex;
+  
+}
+
+.container-input {
   height: 60px;
-}
-
-.container-texto4 li {
-  font-size: 12px;
-}
-
-.container-texto4 {
-  font-size: 12px;
-  height: 200px;
-  padding: 0 10px;
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-  flex-direction: column;
-  background-color: #cdcdcd;
-}
-
-.container-texto5 {
-  font-size: 14px;
-  height: 200px;
-  padding: 0 10px;
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-  flex-direction: column;
-  background-color: #cdcdcd;
-}
-
-.container-texto5 li {
-  font-size: 12px;
-}
-
-.texto-duv2 {
-  background-color: #bebebe;
-  width: 250px;
-  height: 60px;
-  font-size: 14px;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-}
-
-.texto-duv3 {
-  background-color: #bebebe;
-  width: 250px;
-  height: 60px;
-  font-size: 14px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.container-texto6 {
-  font-size: 14px;
-  height: 190px;
+.container-input input {
+  width: 400px;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-radius: 14px;
   padding: 0 10px;
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-  flex-direction: column;
-  background-color: #cdcdcd;
 }
 
-.container-texto6 li {
-  font-size: 12px;
+.menu-botao {
+  width: 420px;
+  padding: 0 10px;
+  height: 30px;
+  display: flex;
+  justify-content: right;
+}
+
+.menu-botao button {
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.menu-botao button:hover {
+  background-color: rgb(167, 167, 167);
+  transition: all ease .2s;
 }
 
 footer {
@@ -474,9 +438,6 @@ footer {
   }
 
 
-  main {
-    height: 564px;
-  }
 
   footer {
     display: flex;
@@ -492,6 +453,10 @@ footer {
     justify-content: center;
   }
 
+
+
+
+
   .container-redes {
     display: none;
   }
@@ -503,34 +468,5 @@ footer {
 
   .contaienr-pagamentos {
     display: none;
-  }
-}
-
-@media (max-width:814px) {
-
-  main {
-    height: 1400px;
-  }
-
-  .container-duvidas {
-    display: flex;
-    width: auto;
-    flex-direction: column;
-    height: 1400px;
-  }
-
-  .container-divs-t {
-    height: 300px;
-    width: 200px;
-    display: flex;
-  }
-  .feito-agora{
-    width: 300px;
-  }
-  .texto-duv3{
-    width: 300px;
-  }
-  .texto-duv2{
-    width: 300px;
   }
 }
