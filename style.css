@@ -444,7 +444,9 @@ footer {
     justify-content: center;
   }
 
-
+.container-logo{
+ display: none;
+}
 
   footer {
     display: flex;
