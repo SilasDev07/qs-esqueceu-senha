@@ -445,7 +445,7 @@ footer {
   }
 
 .container-logo{
- display: none;
+ width: auto;
 }
 
   footer {
